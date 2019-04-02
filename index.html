@@ -2,6 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
 <title> Informacion Especialidad Tecnico en Programacion</title>
 <!-- Start WOWSlider.com HEAD section -->
 <link rel="stylesheet" type="text/css" href="engine1/style.css" />
@@ -19,44 +25,44 @@
 
 <script src="phonegap.js"></script><!--necesario-->
 <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
 </script>
 </head>
 
-<body>
+<body onLoad="MM_preloadImages('imagenes/diaSalud_2.png')">
 <div data-role="page" id="Principal" data-theme="b">
  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
  <h1> Informacion de la especialidad Tecnico en programacion </h1>
  </div>
  <div data-role="main" class="ui-content">
  <div data-role ="collapsible" data-content-theme="false">
- <h1> Perfil de egreso</h1>
+ <h1>Infografía</h1>
  <div>
- <p>Información sobre el perfil de egresado de la especialidad</p>
+ <p>Información sobre el dia mundial de la salud</p>
  <br>
  <div>
- <p>La información que ofrece la carrera de Técnico en Programación permite al egresado, a través de la articulación de saberes de diversos campos, realizar actividades dirigidas a la :
- <br>
- <ul>
- <li> Instalación y desarrollo de software de aplicación utilizando programación estrucutrada y orientada a objetos en ambientes web y móviles, con alamacenamiento persistente de datos,</li>
- 
- <li>Así como la configuración y administración de plataformas  e-learning y</li>
- <li> comercio electronico</li>
- </ul>
- Durante el proceso de formación de los cinco módulos, el estiudiante desarrollará o reforzará <br>
- Las siguiente competencias profesionales: <br>
- <ul>
- <li> Desarolla e instala software de aplicación utilizando programación estructurada,con almacenamiento persistentre de datos</li>
- <li>Desarrolla software de aplicación utilizando programación orientada a objetos con almacenamiento persistente de los datoa </li>
- <li> Desarrolla aplicaciones web y móviles</li>
- <li>Administra sistemas operativos,aplicaciones y servicios</li>
- <li> Desarrolla, administra y configura  soluciones de e-learning y comercio electrónico</li>
- </ul>
- </p>
+ <p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/diaSalud_2.png',1)"><img src="imagenes/diaSalud_1.png" width="751" height="990" id="Image19"></a> </p>
  </div>
   
   
@@ -101,6 +107,31 @@ function MM_preloadImages() { //v3.0
  </ul>
  </div>
 
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/wow6.jpg" alt="wow6" title="wow6" id="wows1_0"/></li>
+		<li><img src="data1/images/wow1.jpg" alt="wow1" title="wow1" id="wows1_1"/></li>
+		<li><img src="data1/images/wow2.jpg" alt="wow2" title="wow2" id="wows1_2"/></li>
+		<li><img src="data1/images/wow3.jpg" alt="wow3" title="wow3" id="wows1_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/wow4.jpg" alt="wowslider.com" title="wow4" id="wows1_4"/></a></li>
+		<li><img src="data1/images/wow5.jpg" alt="wow5" title="wow5" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="wow6"><span><img src="data1/tooltips/wow6.jpg" alt="wow6"/>1</span></a>
+		<a href="#" title="wow1"><span><img src="data1/tooltips/wow1.jpg" alt="wow1"/>2</span></a>
+		<a href="#" title="wow2"><span><img src="data1/tooltips/wow2.jpg" alt="wow2"/>3</span></a>
+		<a href="#" title="wow3"><span><img src="data1/tooltips/wow3.jpg" alt="wow3"/>4</span></a>
+		<a href="#" title="wow4"><span><img src="data1/tooltips/wow4.jpg" alt="wow4"/>5</span></a>
+		<a href="#" title="wow5"><span><img src="data1/tooltips/wow5.jpg" alt="wow5"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
 <a href="https://www.vix.com/es/btg/curiosidades/61256/por-que-se-celebra-el-dia-mundial-de-la-salud-el-7-de-abril/" target="_self"> CLICEA AQUI SI QUIERES ENTRAR A LA INFORMACION DE LA OMS   
 </a>
 <BR>
@@ -120,7 +151,7 @@ function MM_preloadImages() { //v3.0
  </div>
 </div>
  
- <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
  <h1> 1.- Cuando se celebra y por qué?</h1>
  </div>
@@ -160,7 +191,7 @@ function MM_preloadImages() { //v3.0
 </div>
  
  
- <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
  <h1><strong id="yui_3_17_2_1_1554148238567_147"><span id="yui_3_17_2_1_1554148238567_6">3.- Qué hace la OMS?</span></strong></h1>
  </div>
@@ -240,38 +271,42 @@ La CSU comprende mucho más que solo la salud. Adoptar medidas para alcanzar la 
  
 <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
- <h1>6.-imagenes fuertes no entrar si eres sentimental</h1>
+ <h1><strong id="yui_3_17_2_1_1554148238567_147"><span id="yui_3_17_2_1_1554148238567_6">6.-imagenes fuertes no entrar si eres sentimental</span></strong></h1>
  </div>
  <div data-role="content" align="center">
  <div>
  <P><BR>
  <BR>
- <IMG src="" width="100%" height="100%" alt="mod5"> </div>
+ <IMG src="imagenes/sad1.jpg" width="1000" height="1200" alt="sad">
+ <br>
+  <br>
+ <br>
+
+ <IMG src="imagenes/sad2.jpg" width="640" height="335" alt="sad2"> 
+ <br>
+ <br>
+ <br>
+
+
+ <IMG src="imagenes/sad3.jpg" width="459" height="366" alt="sad3">
+ <br>
+ <br>
+ <br>
+
+
+ <IMG src="imagenes/sad4.jpg" width="720" height="540" alt="sad4">
+ <br>
+ <br>
+ <br>
+
+ <IMG src="imagenes/sad5.jpg" width="548" height="355" alt="sad5"> </div>
  </div>
- <div data-role="footer" align="center" data-theme="b" data-position="fixed">
- <div>
- <BR>
- <BR>
- <IMG src="imagenes/mod5.png" width="100%" height="100%" alt="mod5"> </div>
- </div>
- <div data-role="footer" align="center" data-theme="b" data-position="fixed">
- <div>
- <BR>
- <BR>
- <IMG src="imagenes/mod5.png" width="100%" height="100%" alt="mod5"> </div>
- </div>
- <div data-role="footer" align="center" data-theme="b" data-position="fixed">
- <div>
- <BR>
- <BR>
- <IMG src="imagenes/mod5.png" width="100%" height="100%" alt="mod5"> </div>
- </div>
- <div data-role="footer" align="center" data-theme="b" data-position="fixed">
- <div>
- <BR>
- <BR>
- <IMG src="imagenes/mod5.png" width="100%" height="100%" alt="mod5"> </div>
- </div>
+ 
+ 
+ 
+ 
+ 
+ 
  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
  <div>
  <BR>
@@ -290,7 +325,7 @@ La CSU comprende mucho más que solo la salud. Adoptar medidas para alcanzar la 
  
  
  
- <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
  <div>
  <img src="imagenes/persona_azul.png" width="46" height="46" alt="pie">
  </div>
@@ -298,6 +333,6 @@ La CSU comprende mucho más que solo la salud. Adoptar medidas para alcanzar la 
  <h4> Darwin Joaquin Alarcon Briones </h4>
  </div>
  </div>
- </body>
+</body>
 </html>
 
